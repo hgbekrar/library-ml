@@ -6,12 +6,17 @@ currently reading :
 
 recommended reading list to master rigorous mindset to understand foundations of AI :
 
-*basics* :
+*mathematical foundations* :
+* "Convex Optimization" — Stephen Boyd & Lieven Vandenberghe 
+* "The Elements of Statistical Learning" — Hastie, Tibshirani, Friedman
+  
+*foundational ideas* :
 * "Understanding Deep Learning" — Simon J.D. Prince (2023)
 * "Deep Learning: Foundations and Concepts" — Christopher Bishop & Hugh Bishop
 
 *going deeper in the math* :
 * "High-Dimensional Probability: An Introduction with Applications in Data Science" — Roman Vershynin
+* "Understanding Machine Learning: From Theory to Algorithms" — Shalev-Shwartz
 
 *deep theory* :
 * "The Principles of Deep Learning Theory" — Daniel A. Roberts, Sho Yaida & Boris Hanin
