@@ -25,6 +25,9 @@
 *generalizations* :
 * "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges" — Bronstein, Bruna, Cohen, Veličković
 * "Probabilistic Machine Learning: Advanced Topics" — Kevin Murphy (2023)
-
+* "Reinforcement Learning: An Introduction" — Sutton & Barto
+* "Elements of Causal Inference" — Peters, Janzing, Schölkopf
+  
 encyclopedy : 
 - "Deep Learning" from I.Goodfellow, Y.Bengio, A.Courville -> considered as an encyclopedy not good to learn from scratch with it
+- "Probabilistic Machine Learning: An Introduction" — Kevin Murphy (Vol 1)
