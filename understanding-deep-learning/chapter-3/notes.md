@@ -18,3 +18,9 @@ in the example these are linear functions inside a ReLu activation function
 when a hidden unit is non zero on a certain space of inputs we call it active
 #### inactive
 when a hidden unit equals zero on a certain space of inputs we call it inactive
+
+## depicting a neural network with 1D input and 1D output
+$$ y = f(x, **\phi**) =  \phi_0 + \phi_1\times a(\theta_{10} +\theta_{11} \times x) +\phi_2\times a(\theta_{20} +\theta_{21} \times x) + \phi_3\times a(\theta_{30} +\theta_{31} \times x)$$
+
+<img width="485" height="519" alt="neural network" src="https://github.com/user-attachments/assets/ab7e8153-4c17-4501-b244-488f002a036e" />
+<img width="485" height="519" alt="neural network complete" src="https://github.com/user-attachments/assets/3d24e469-7855-43ed-969a-5b4f8437de09" />
