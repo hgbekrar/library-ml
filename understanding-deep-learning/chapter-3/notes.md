@@ -32,3 +32,26 @@ $$ y = f(x, **\phi**) =  \phi_0 + \phi_1\times a(\theta_{10} +\theta_{11} \times
 * how many parameters ? $10$
 
 
+## solution to problems 
+### solution to problem 3.1
+if the activation function would be linear it would cause the model to be linear
+#### 1st case :
+$a(z)= \psi_0 + \psi_1 \times z \implies y = \phi_0 + \phi_1 (\psi_0 + \psi_1 (\theta_{10} + \theta_{11}\times x) ) + \phi_2 (\psi_0 + \psi_1 (\theta_{20} + \theta_{21}\times x) ) + \phi_3 (\psi_0 + \psi_1 (\theta_{30} + \theta_{31} \times x))$ 
+
+$\implies y = C + (\phi_1\psi_1\theta_{11} + \phi_2\psi_1\theta_{21} + \phi_3\psi_1\theta_{31})\times x $
+#### 2nd case :
+$a(z)=z \implies \phi_0 + \phi_1 (\theta_{10} +\theta_{11} \times x) +\phi_2 (\theta_{20} +\theta_{21} \times x) + \phi_3 (\theta_{30} +\theta_{31} \times x)$
+
+$\implies y = C' + (\phi_1\theta_{11} + \phi_2\theta_{21} + \phi_3\theta_{31})\times x$
+
+### solution to problem 3.2
+$h_1$ : inactive; active; active
+
+$h_2$ : inactive; inactive; active
+
+$h_3$ : active;  active; inactive
+
+### solution to problem 3.3
+$-\frac{\theta_{10}}{\theta_{11}}$
+$-\frac{\theta_{20}}{\theta_{21}}$
+$-\frac{\theta_{30}}{\theta_{31}}$
