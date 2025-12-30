@@ -6,7 +6,7 @@
 # books : currently reading 
 - "Understanding Deep Learning" — Simon J.D. Prince (2023)
 
-# recommended reading list to master rigorous mindset to understand foundations of AI :
+# recommended reading list to master rigorous foundations of AI :
 
 *mathematical foundations* :
 * "Convex Optimization" — Stephen Boyd & Lieven Vandenberghe 
