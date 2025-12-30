@@ -61,3 +61,30 @@ $-\frac{\theta_{30}}{\theta_{31}}$
 ### solution to problem 3.4
 <img width="485" height="519" alt="modified-last-hidden-unit" src="https://github.com/user-attachments/assets/c5614cf3-ba10-4def-a800-95b6f795ba79" />
 
+### solution to problem 3.5
+$$
+\begin{aligned}
+\text{ReLU}(\alpha z) &= \begin{cases} 
+\alpha z & \text{if } \alpha z \geq 0 \\
+0 & \text{else}
+\end{cases} \\
+&= \begin{cases} 
+\alpha z & \text{if } z \geq 0 \\
+0 & \text{else}
+\end{cases}  \\
+&= \alpha \text{ReLU} (z)
+\end{aligned}
+$$
+
+### solution to problem 3.6
+#### when $\alpha \geq 0 :$
+from the homogeneity proved in *problem 3.5* multiplying the coefficients for the slope and y-intercept by $\alpha$ lead to a factor of $\alpha$ outside the ReLU activation function. When dividing $\phi$ by $\alpha$ it cancels $\alpha$.
+
+Overall the operation does nothing !
+
+#### when $\alpha < 0 :$
+the linear function is multiplied by a negative number so geometrically it's a symmetry on the $x$-axis of this line.
+
+Then we apply ReLU which cancels the negative part (previously positive) and activates the positive part (previously positive)
+
+Overall this operation exchanged the positive and negative parts.
