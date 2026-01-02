@@ -1,13 +1,10 @@
-# deep-learning-notes
-*Why ?* 
-* *the Feynman method*
-* *I want do research in AI*
-* *I like learning*
-* *feel free to share any recommendations and compare your solutions to mine*
-# books : currently reading 
-## "Understanding Deep Learning" — Simon J.D. Prince (2023) ![Static Badge](https://img.shields.io/badge/progress%20-%20chapter%204%2F21-blue)
+# Library for machine learning learners 
 
-# recommended reading list to master rigorous foundations of AI :
+## books : currently reading 
+* "Understanding Deep Learning" — Simon J.D. Prince (2023)
+* ![Static Badge](https://img.shields.io/badge/progress%20-%20chapter%204%2F21-blue)
+
+## reference textbooks focusing on the foundations of ml:
 
 *mathematical foundations* :
 * "Convex Optimization" — Stephen Boyd & Lieven Vandenberghe 
