@@ -1,5 +1,11 @@
 # Library for machine learning learners 
+*The goal of this library is to progressively add references for ml learners to help them learn the foundations of ml faster*
 
+*For that purpose for each book I'll add a personal note explaining the target audience of the book and takeaways from reading the book*
+
+*This library is specially designed for someone who wants to do research in AI in the future.*
+
+*This library can be used to help learners understand research papers faster in order to fill in their knowledge.*
 ## books : currently reading 
 * "Understanding Deep Learning" — Simon J.D. Prince (2023)
 * ![Static Badge](https://img.shields.io/badge/progress%20-%20chapter%204%2F21-blue)
