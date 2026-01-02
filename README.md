@@ -3,7 +3,7 @@
 
 *For that purpose for each book I'll add a personal note explaining the target audience of the book and takeaways from reading the book*
 
-*This library is specially designed for someone who wants to do research in AI in the future.*
+*This library is specially designed for someone intested in AI research*
 
 *This library can be used to help learners understand research papers faster in order to fill in their knowledge.*
 ## books : currently reading 
