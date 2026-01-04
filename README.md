@@ -6,6 +6,8 @@
 *This library is specially designed for someone intested in AI research*
 
 *This library can be used to help learners understand research papers faster in order to fill in their knowledge.*
+
+*For the moment I complete the notebooks and problems from the following book!!*
 ## books : currently reading 
 * "Understanding Deep Learning" — Simon J.D. Prince (2023)
 * ![Static Badge](https://img.shields.io/badge/progress%20-%20chapter%204%2F21-blue)
