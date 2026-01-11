@@ -65,4 +65,35 @@ When the LLM predicts an EOS, it terminates the prediction of the model.
 * payload = the order / prompt 
 * an API key = your "ID Card"
 
+## What are tools ?
+* A tool is a **function** given to the LLM. This function should fulfill a clear objective.
+* A good tool should be a tool that complements the power of an LLM.
+* Moreover the knowledge of an LLM consists of its training data, so to give him **up-to date** information, tools are necessary.
+* A tool should contain : a textual description of what the function does, a callable (something to perform an action), arguments (to write inputs)
+### What is a Chat Templates ?
+### What is a system prompt ?
+> system_message = "behave like this = Agent behavior, here are your tools = Agent tools has access to, what you have to do ..."
+> JSON Format messages ?
+### How do tools work ?
+### How do we give tools to an LLM ?
+#### 1st Strategy to solve this problem - Plain text description
+**use the system prompt to give a clear and precise description of the tools the LLM has access to.**
+we have to tell exactly 
+* what the tool does 
+* what exactly it takes an input
+#### 2nd - Class in Python
+* create a class (parameters including a callable function)
+* and a decorator (@tool) which computes the string for the LLM automatically given that you are in the same format imposed by the decorator and that you provide a call with required inputs for the class
+#### 3rd - MCP
+*Model Context Protocol* 
+
+standardizes the usage of tools by LLMs
+
+## Agent Workflows - thought, action, observation cycle
+definition :
+* Thought : the LLM decides what is the next step
+* Action : The Agent calls external tools with the right parameters
+* Observation : The model *reflects on the response from the tool*
+
+> the guidelines and rules are generally embedded in the system prompt : system_message = "... use thought-action-observation cycle, descriptions... ..."
 
