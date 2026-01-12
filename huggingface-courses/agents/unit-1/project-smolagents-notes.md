@@ -13,3 +13,6 @@ he works thanks to https://open-meteo.com/ free API !
 
 
 you can guess their description (a shame to say this after completing unit 1!) if you are interested in how they work look at the app.py file in the repo above.
+
+
+this repo contains many (hundreds or even thousands) [free APIs](https://github.com/public-apis/public-apis)
