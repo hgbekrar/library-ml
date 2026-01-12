@@ -40,4 +40,5 @@ encyclopedy :
 - "Probabilistic Machine Learning: An Introduction" — Kevin Murphy (Vol 1)
 
 ## Online Courses 
-* Agents Course on HuggingFace
+* Agents Course on HuggingFace [Agents Course on HF](https://huggingface.co/learn/agents-course)
+* Zero to Mastery Learn PyTorch for Deep Learning [LearnPyTorch.io](https://www.learnpytorch.io/)
