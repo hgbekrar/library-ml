@@ -31,6 +31,7 @@
 
 *generalizations* :
 * "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges" — Bronstein, Bruna, Cohen, Veličković
+* "Topological Data Analysis with Applications" — Gunnar Carlsson & Mikael Vejdemo-Johansson  
 * "Probabilistic Machine Learning: Advanced Topics" — Kevin Murphy (2023)
 * "Reinforcement Learning: An Introduction" — Sutton & Barto
 * "Elements of Causal Inference" — Peters, Janzing, Schölkopf
